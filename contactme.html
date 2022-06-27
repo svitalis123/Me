@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="shortcut icon" href="./images/slu log 6.JPG" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3c4e8cd21a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="contactcontainer">
+        <div class="menu">
+            <div class="listword" ><span style="padding: 1rem;" onclick="handletole()">Menu</span></div>
+            <div class="mylist" id="thelist">
+                <ul id="unorderl">
+                    <li  class="link "><a href="/" >home</a></li>
+                    <li class="link"><a href="./mywork.html" >my work</a></li>
+                    <li class="link "><a href="./aboutme.html" ">about me</a></li>
+                    <li class="link active"><a href="./contactme.html" >contact me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="divform">
+            <form action="">
+                <div class="namesdiv">
+                    <input type="text" name="name" id="name" placeholder="Full Names" >
+                </div>
+                <div class="emaildiv">
+                    <input type="email" name="email" id="email" value="" placeholder="ab@gmail.com //Your Email">
+                </div>
+                <div class="checkdiv">
+                    <input type="checkbox" name="work" id="work" value="work" ><span>Work</span>
+                    <br>
+                    <input type="checkbox" name="work" id="work" value="work" ><span>Comment</span>
+                    <br>
+                    <input type="checkbox" name="work" id="work" value="work" ><span>Other</span>
+                </div>
+                <div class="messagediv">
+                    <textarea name="comment" placeholder="Message" id="comment" cols="30" rows="10">
+
+                    </textarea>
+                </div>
+                <button type="submit" class="submitbtn">Contact</button>
+            </form>
+            <div class="icons">
+                <a href=""  class="myicons"><i class="fa fa-facebook"></i></a>
+                <a href="" class="myicons"><i class="fa fa-twitter"></i></a>
+                <a href="" class="myicons"><i class="fa fa-linkedin"></i></a>
+                <a href="" class="myicons"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
